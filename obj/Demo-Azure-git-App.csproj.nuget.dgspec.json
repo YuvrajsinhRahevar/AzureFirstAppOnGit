@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\SampleCode\\DemoCode\\Demo-Azure-git-App\\Demo-Azure-git-App.csproj": {}
+  },
+  "projects": {
+    "C:\\SampleCode\\DemoCode\\Demo-Azure-git-App\\Demo-Azure-git-App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SampleCode\\DemoCode\\Demo-Azure-git-App\\Demo-Azure-git-App.csproj",
+        "projectName": "Demo-Azure-git-App",
+        "projectPath": "C:\\SampleCode\\DemoCode\\Demo-Azure-git-App\\Demo-Azure-git-App.csproj",
+        "packagesPath": "C:\\Users\\yuvrajsinh_rahevar\\.nuget\\packages\\",
+        "outputPath": "C:\\SampleCode\\DemoCode\\Demo-Azure-git-App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yuvrajsinh_rahevar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://chodevcache01.snl.int/SNLNuGetFeed/nuget/": {},
+          "http://chodevcache01.snl.int/SPGNuGetFeed/nuget/": {},
+          "https://spglobal.pkgs.visualstudio.com/_packaging/DataPipeline/nuget/v3/index.json": {},
+          "https://spglobal.pkgs.visualstudio.com/_packaging/MI/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
