@@ -32,7 +32,7 @@ namespace Demo_Azure_git_App
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello Team!");
                 });
             });
         }
