@@ -32,7 +32,7 @@ namespace Demo_Azure_git_App
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("<h1>Hello Yuvi </h1> <br> This is test to check refresh time");
+                    await context.Response.WriteAsync("<h1>Hello Yuvi </h1> <br> This is test to check refresh time,<br> Also added Build pipeline test- 1");
                 });
             });
         }
