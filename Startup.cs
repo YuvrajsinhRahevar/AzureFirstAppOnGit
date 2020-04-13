@@ -25,14 +25,12 @@ namespace Demo_Azure_git_App
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseRouting();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("<h1>Hello Yuvi </h1> <br> This is test to check refresh time,<br> Also added Build pipeline Test- 1");
+                    await context.Response.WriteAsync("<h1>Hello Yuvi </h1> <br> This is test to check refresh time,<br> Also added Build pipeline Test- 1 ");
                 });
             });
         }
